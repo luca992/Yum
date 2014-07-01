@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		247D391819462ABF0072BBD7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 247D391719462ABF0072BBD7 /* CoreLocation.framework */; };
+		24A26B38195E0EE4001AE68E /* DWMVenue.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A26B37195E0EE4001AE68E /* DWMVenue.m */; };
+		24A74CBC19590F9C003BF236 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24A74CBB19590F9C003BF236 /* CoreData.framework */; };
+		24A74CBF19590FB9003BF236 /* Yum.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 24A74CBD19590FB9003BF236 /* Yum.xcdatamodeld */; };
+		24A74CC2195910AE003BF236 /* DWMSearchHistoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A74CC1195910AE003BF236 /* DWMSearchHistoryTableViewController.m */; };
+		24AF2138195B3003008A3DF3 /* DWMGuiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AF2137195B3003008A3DF3 /* DWMGuiTests.m */; };
+		24B908111948CA56009605EB /* YumParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B908101948CA56009605EB /* YumParserTests.m */; };
+		24B908141948CDC1009605EB /* DWMVenueParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B908131948CDC1009605EB /* DWMVenueParser.m */; };
+		24B908181948FEFB009605EB /* VenueData.json in Resources */ = {isa = PBXBuildFile; fileRef = 24B908171948FEFA009605EB /* VenueData.json */; };
+		24E11D2919426FC200335AEC /* PhoneNumberChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E11D2819426FC200335AEC /* PhoneNumberChecker.m */; };
+		24E11D2C19427BD600335AEC /* EmailAddressChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E11D2B19427BD600335AEC /* EmailAddressChecker.m */; };
+		24E11D2F19427EAC00335AEC /* FoodChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E11D2E19427EAC00335AEC /* FoodChecker.m */; };
+		35E7A2806BCE46639DC58713 /* libPods-YumTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50B8BE83B55E4799B0A92EAF /* libPods-YumTests.a */; };
 		B7B4CC551940EC94003CEED9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B4CC541940EC94003CEED9 /* Foundation.framework */; };
 		B7B4CC571940EC94003CEED9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B4CC561940EC94003CEED9 /* CoreGraphics.framework */; };
 		B7B4CC591940EC94003CEED9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B4CC581940EC94003CEED9 /* UIKit.framework */; };
@@ -21,6 +34,8 @@
 		B7B4CC761940EC94003CEED9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B4CC581940EC94003CEED9 /* UIKit.framework */; };
 		B7B4CC7E1940EC94003CEED9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B7B4CC7C1940EC94003CEED9 /* InfoPlist.strings */; };
 		B7B4CC801940EC94003CEED9 /* YumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B4CC7F1940EC94003CEED9 /* YumTests.m */; };
+		B7B4CC8E1940F444003CEED9 /* DWMVenuesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B4CC8D1940F444003CEED9 /* DWMVenuesTableViewController.m */; };
+		D381AB76858540FBAB23727A /* libPods-Yum.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73BC2179278849808679EC10 /* libPods-Yum.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +49,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		247D391719462ABF0072BBD7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		24A26B36195E0EE4001AE68E /* DWMVenue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWMVenue.h; sourceTree = "<group>"; };
+		24A26B37195E0EE4001AE68E /* DWMVenue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWMVenue.m; sourceTree = "<group>"; };
+		24A74CBB19590F9C003BF236 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		24A74CBE19590FB9003BF236 /* Yum.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Yum.xcdatamodel; sourceTree = "<group>"; };
+		24A74CC0195910AE003BF236 /* DWMSearchHistoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWMSearchHistoryTableViewController.h; sourceTree = "<group>"; };
+		24A74CC1195910AE003BF236 /* DWMSearchHistoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWMSearchHistoryTableViewController.m; sourceTree = "<group>"; };
+		24AF2136195B3003008A3DF3 /* DWMGuiTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWMGuiTests.h; sourceTree = "<group>"; };
+		24AF2137195B3003008A3DF3 /* DWMGuiTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWMGuiTests.m; sourceTree = "<group>"; };
+		24B908101948CA56009605EB /* YumParserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YumParserTests.m; sourceTree = "<group>"; };
+		24B908121948CDC1009605EB /* DWMVenueParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWMVenueParser.h; sourceTree = "<group>"; };
+		24B908131948CDC1009605EB /* DWMVenueParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWMVenueParser.m; sourceTree = "<group>"; };
+		24B908171948FEFA009605EB /* VenueData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = VenueData.json; path = ../Yum/VenueData.json; sourceTree = "<group>"; };
+		24E11D2719426FC200335AEC /* PhoneNumberChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneNumberChecker.h; sourceTree = "<group>"; };
+		24E11D2819426FC200335AEC /* PhoneNumberChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneNumberChecker.m; sourceTree = "<group>"; };
+		24E11D2A19427BD600335AEC /* EmailAddressChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailAddressChecker.h; sourceTree = "<group>"; };
+		24E11D2B19427BD600335AEC /* EmailAddressChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailAddressChecker.m; sourceTree = "<group>"; };
+		24E11D2D19427EAC00335AEC /* FoodChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodChecker.h; sourceTree = "<group>"; };
+		24E11D2E19427EAC00335AEC /* FoodChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodChecker.m; sourceTree = "<group>"; };
+		50B8BE83B55E4799B0A92EAF /* libPods-YumTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YumTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73BC2179278849808679EC10 /* libPods-Yum.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Yum.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9033915FA1464BAC9DC950D5 /* Pods-Yum.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yum.xcconfig"; path = "Pods/Pods-Yum.xcconfig"; sourceTree = "<group>"; };
 		B7B4CC511940EC94003CEED9 /* Yum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7B4CC541940EC94003CEED9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B7B4CC561940EC94003CEED9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +90,9 @@
 		B7B4CC7B1940EC94003CEED9 /* YumTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YumTests-Info.plist"; sourceTree = "<group>"; };
 		B7B4CC7D1940EC94003CEED9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B7B4CC7F1940EC94003CEED9 /* YumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YumTests.m; sourceTree = "<group>"; };
+		B7B4CC8C1940F444003CEED9 /* DWMVenuesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWMVenuesTableViewController.h; sourceTree = "<group>"; };
+		B7B4CC8D1940F444003CEED9 /* DWMVenuesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWMVenuesTableViewController.m; sourceTree = "<group>"; };
+		FD73BF42A3EA48EB93D9472B /* Pods-YumTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YumTests.xcconfig"; path = "Pods/Pods-YumTests.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +100,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24A74CBC19590F9C003BF236 /* CoreData.framework in Frameworks */,
+				247D391819462ABF0072BBD7 /* CoreLocation.framework in Frameworks */,
 				B7B4CC571940EC94003CEED9 /* CoreGraphics.framework in Frameworks */,
 				B7B4CC591940EC94003CEED9 /* UIKit.framework in Frameworks */,
 				B7B4CC551940EC94003CEED9 /* Foundation.framework in Frameworks */,
+				D381AB76858540FBAB23727A /* libPods-Yum.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +116,7 @@
 				B7B4CC741940EC94003CEED9 /* XCTest.framework in Frameworks */,
 				B7B4CC761940EC94003CEED9 /* UIKit.framework in Frameworks */,
 				B7B4CC751940EC94003CEED9 /* Foundation.framework in Frameworks */,
+				35E7A2806BCE46639DC58713 /* libPods-YumTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +130,8 @@
 				B7B4CC791940EC94003CEED9 /* YumTests */,
 				B7B4CC531940EC94003CEED9 /* Frameworks */,
 				B7B4CC521940EC94003CEED9 /* Products */,
+				FD73BF42A3EA48EB93D9472B /* Pods-YumTests.xcconfig */,
+				9033915FA1464BAC9DC950D5 /* Pods-Yum.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +147,14 @@
 		B7B4CC531940EC94003CEED9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				24A74CBB19590F9C003BF236 /* CoreData.framework */,
+				247D391719462ABF0072BBD7 /* CoreLocation.framework */,
 				B7B4CC541940EC94003CEED9 /* Foundation.framework */,
 				B7B4CC561940EC94003CEED9 /* CoreGraphics.framework */,
 				B7B4CC581940EC94003CEED9 /* UIKit.framework */,
 				B7B4CC731940EC94003CEED9 /* XCTest.framework */,
+				50B8BE83B55E4799B0A92EAF /* libPods-YumTests.a */,
+				73BC2179278849808679EC10 /* libPods-Yum.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -114,11 +164,26 @@
 			children = (
 				B7B4CC631940EC94003CEED9 /* DWMAppDelegate.h */,
 				B7B4CC641940EC94003CEED9 /* DWMAppDelegate.m */,
+				24E11D2719426FC200335AEC /* PhoneNumberChecker.h */,
+				24E11D2819426FC200335AEC /* PhoneNumberChecker.m */,
+				24E11D2A19427BD600335AEC /* EmailAddressChecker.h */,
+				24E11D2B19427BD600335AEC /* EmailAddressChecker.m */,
+				24B908121948CDC1009605EB /* DWMVenueParser.h */,
+				24B908131948CDC1009605EB /* DWMVenueParser.m */,
+				24E11D2D19427EAC00335AEC /* FoodChecker.h */,
+				24E11D2E19427EAC00335AEC /* FoodChecker.m */,
 				B7B4CC661940EC94003CEED9 /* Main.storyboard */,
 				B7B4CC691940EC94003CEED9 /* DWMViewController.h */,
 				B7B4CC6A1940EC94003CEED9 /* DWMViewController.m */,
+				B7B4CC8C1940F444003CEED9 /* DWMVenuesTableViewController.h */,
+				B7B4CC8D1940F444003CEED9 /* DWMVenuesTableViewController.m */,
+				24A26B36195E0EE4001AE68E /* DWMVenue.h */,
+				24A26B37195E0EE4001AE68E /* DWMVenue.m */,
+				24A74CC0195910AE003BF236 /* DWMSearchHistoryTableViewController.h */,
+				24A74CC1195910AE003BF236 /* DWMSearchHistoryTableViewController.m */,
 				B7B4CC6C1940EC94003CEED9 /* Images.xcassets */,
 				B7B4CC5B1940EC94003CEED9 /* Supporting Files */,
+				24A74CBD19590FB9003BF236 /* Yum.xcdatamodeld */,
 			);
 			path = Yum;
 			sourceTree = "<group>";
@@ -137,8 +202,12 @@
 		B7B4CC791940EC94003CEED9 /* YumTests */ = {
 			isa = PBXGroup;
 			children = (
+				24B908171948FEFA009605EB /* VenueData.json */,
 				B7B4CC7F1940EC94003CEED9 /* YumTests.m */,
+				24B908101948CA56009605EB /* YumParserTests.m */,
 				B7B4CC7A1940EC94003CEED9 /* Supporting Files */,
+				24AF2136195B3003008A3DF3 /* DWMGuiTests.h */,
+				24AF2137195B3003008A3DF3 /* DWMGuiTests.m */,
 			);
 			path = YumTests;
 			sourceTree = "<group>";
@@ -159,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B7B4CC831940EC94003CEED9 /* Build configuration list for PBXNativeTarget "Yum" */;
 			buildPhases = (
+				BD8AF489A0DC4F568FE553F6 /* Check Pods Manifest.lock */,
 				B7B4CC4D1940EC94003CEED9 /* Sources */,
 				B7B4CC4E1940EC94003CEED9 /* Frameworks */,
 				B7B4CC4F1940EC94003CEED9 /* Resources */,
+				A49EC04B794F43AE89AAD2C2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,9 +247,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B7B4CC861940EC94003CEED9 /* Build configuration list for PBXNativeTarget "YumTests" */;
 			buildPhases = (
+				22CBEEEA98964BE0A12E2F8E /* Check Pods Manifest.lock */,
 				B7B4CC6E1940EC94003CEED9 /* Sources */,
 				B7B4CC6F1940EC94003CEED9 /* Frameworks */,
 				B7B4CC701940EC94003CEED9 /* Resources */,
+				DC3A3ED6D3C64DD795937B01 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,6 +273,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "DW Morgan";
 				TargetAttributes = {
+					B7B4CC501940EC94003CEED9 = {
+						DevelopmentTeam = 6EE2X77E8B;
+					};
 					B7B4CC711940EC94003CEED9 = {
 						TestTargetID = B7B4CC501940EC94003CEED9;
 					};
@@ -240,10 +316,74 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7B4CC7E1940EC94003CEED9 /* InfoPlist.strings in Resources */,
+				24B908181948FEFB009605EB /* VenueData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22CBEEEA98964BE0A12E2F8E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A49EC04B794F43AE89AAD2C2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Yum-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD8AF489A0DC4F568FE553F6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DC3A3ED6D3C64DD795937B01 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-YumTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B7B4CC4D1940EC94003CEED9 /* Sources */ = {
@@ -252,6 +392,14 @@
 			files = (
 				B7B4CC611940EC94003CEED9 /* main.m in Sources */,
 				B7B4CC651940EC94003CEED9 /* DWMAppDelegate.m in Sources */,
+				24A74CBF19590FB9003BF236 /* Yum.xcdatamodeld in Sources */,
+				24E11D2919426FC200335AEC /* PhoneNumberChecker.m in Sources */,
+				24B908141948CDC1009605EB /* DWMVenueParser.m in Sources */,
+				24A26B38195E0EE4001AE68E /* DWMVenue.m in Sources */,
+				24E11D2C19427BD600335AEC /* EmailAddressChecker.m in Sources */,
+				24E11D2F19427EAC00335AEC /* FoodChecker.m in Sources */,
+				24A74CC2195910AE003BF236 /* DWMSearchHistoryTableViewController.m in Sources */,
+				B7B4CC8E1940F444003CEED9 /* DWMVenuesTableViewController.m in Sources */,
 				B7B4CC6B1940EC94003CEED9 /* DWMViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +408,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24AF2138195B3003008A3DF3 /* DWMGuiTests.m in Sources */,
+				24B908111948CA56009605EB /* YumParserTests.m in Sources */,
 				B7B4CC801940EC94003CEED9 /* YumTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -374,32 +524,41 @@
 		};
 		B7B4CC841940EC94003CEED9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9033915FA1464BAC9DC950D5 /* Pods-Yum.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Yum/Yum-Prefix.pch";
 				INFOPLIST_FILE = "Yum/Yum-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		B7B4CC851940EC94003CEED9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9033915FA1464BAC9DC950D5 /* Pods-Yum.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Yum/Yum-Prefix.pch";
 				INFOPLIST_FILE = "Yum/Yum-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
 		B7B4CC871940EC94003CEED9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD73BF42A3EA48EB93D9472B /* Pods-YumTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Yum.app/Yum";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -422,6 +581,7 @@
 		};
 		B7B4CC881940EC94003CEED9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD73BF42A3EA48EB93D9472B /* Pods-YumTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Yum.app/Yum";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -457,6 +617,7 @@
 				B7B4CC851940EC94003CEED9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7B4CC861940EC94003CEED9 /* Build configuration list for PBXNativeTarget "YumTests" */ = {
 			isa = XCConfigurationList;
@@ -465,8 +626,22 @@
 				B7B4CC881940EC94003CEED9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		24A74CBD19590FB9003BF236 /* Yum.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				24A74CBE19590FB9003BF236 /* Yum.xcdatamodel */,
+			);
+			currentVersion = 24A74CBE19590FB9003BF236 /* Yum.xcdatamodel */;
+			path = Yum.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B7B4CC491940EC94003CEED9 /* Project object */;
 }

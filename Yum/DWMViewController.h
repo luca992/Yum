@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface DWMViewController : UIViewController
-
+#import "PhoneNumberChecker.h"
+@interface DWMViewController : UIViewController <UITextFieldDelegate>
+@property (nonatomic) IBOutlet UITextField *phoneNumberTextField;
+@property (nonatomic) IBOutlet UITextField *emailTextField;
+@property (nonatomic) IBOutlet UITextField *foodTextField;
+@property (nonatomic) IBOutlet UIButton *findFoodButton;
+@property BOOL validPhoneNumber;
+@property BOOL validEmailAddress;
+@property BOOL validFood;
 @end

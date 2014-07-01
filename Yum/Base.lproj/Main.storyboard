@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5023" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Uvf-JW-1pQ">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier View Controller-->
+        <!--View Controller - Yum-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="DWMViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DMWViewController" id="vXZ-lx-hvc" customClass="DWMViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -15,11 +15,161 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="(555) 555-5555" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7QZ-9O-brg">
+                                <rect key="frame" x="20" y="84" width="280" height="30"/>
+                                <accessibility key="accessibilityConfiguration" label="Phone Number"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <textInputTraits key="textInputTraits" keyboardType="phonePad" returnKeyType="done"/>
+                                <connections>
+                                    <action selector="verifyNumber:" destination="vXZ-lx-hvc" eventType="editingDidEnd" id="UPC-va-73L"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="user@test.com" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0Td-EX-oWi">
+                                <rect key="frame" x="20" y="122" width="280" height="30"/>
+                                <accessibility key="accessibilityConfiguration" label="Email"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="done"/>
+                                <connections>
+                                    <action selector="verifyEmail:" destination="vXZ-lx-hvc" eventType="editingDidEnd" id="Gyh-Je-UxI"/>
+                                    <action selector="verifyEmail:" destination="vXZ-lx-hvc" eventType="editingDidEndOnExit" id="ubE-G8-a0q"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EMq-QE-MUk">
+                                <rect key="frame" x="20" y="198" width="280" height="30"/>
+                                <accessibility key="accessibilityConfiguration" label="Search Button"/>
+                                <state key="normal" title="Find Me Something To Eat">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="verifyEmail:" destination="vXZ-lx-hvc" eventType="touchDown" id="vcB-0b-z3s"/>
+                                    <action selector="verifyFood:" destination="vXZ-lx-hvc" eventType="touchDown" id="1fa-MR-Foi"/>
+                                    <action selector="verifyNumber:" destination="vXZ-lx-hvc" eventType="touchDown" id="s5Y-8T-sHc"/>
+                                    <segue destination="ZsP-t7-ZOg" kind="push" id="7Lt-mX-pEC"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="What food sounds good to you?" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Tm7-pT-fci">
+                                <rect key="frame" x="20" y="160" width="280" height="30"/>
+                                <accessibility key="accessibilityConfiguration" label="Food"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                <connections>
+                                    <action selector="verifyFood:" destination="vXZ-lx-hvc" eventType="editingDidEnd" id="9r5-5Y-coq"/>
+                                    <action selector="verifyFood:" destination="vXZ-lx-hvc" eventType="editingDidEndOnExit" id="zpB-X5-bwT"/>
+                                    <outlet property="delegate" destination="kh9-bI-dsS" id="x6r-5s-iGo"/>
+                                </connections>
+                            </textField>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Yum" id="Loj-Tz-uhK">
+                        <barButtonItem key="rightBarButtonItem" tag="1" title="History" id="Zxy-wP-1LR">
+                            <connections>
+                                <segue destination="qYv-PY-QI5" kind="push" id="5cE-tp-qi5"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="emailTextField" destination="0Td-EX-oWi" id="hKA-Q3-pyl"/>
+                        <outlet property="findFoodButton" destination="EMq-QE-MUk" id="h62-MK-Oty"/>
+                        <outlet property="foodTextField" destination="Tm7-pT-fci" id="bbf-5a-slq"/>
+                        <outlet property="phoneNumberTextField" destination="7QZ-9O-brg" id="BXO-0J-7En"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="114" y="-187"/>
+        </scene>
+        <!--Search History Table View Controller - Search History-->
+        <scene sceneID="NNk-Fd-KlU">
+            <objects>
+                <tableViewController id="qYv-PY-QI5" customClass="DWMSearchHistoryTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="T3j-OG-aiU">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="searchCell" id="hqE-HR-8FX">
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hqE-HR-8FX" id="icz-mc-aut">
+                                    <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <accessibility key="accessibilityConfiguration" label="History List">
+                                    <bool key="isElement" value="NO"/>
+                                </accessibility>
+                                <connections>
+                                    <segue destination="ZsP-t7-ZOg" kind="push" id="z9c-mO-rLL"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="qYv-PY-QI5" id="Hzs-oP-uyy"/>
+                            <outlet property="delegate" destination="qYv-PY-QI5" id="vK6-mv-gUB"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Search History" id="j8l-i7-cri"/>
+                    <connections>
+                        <outlet property="tableView" destination="T3j-OG-aiU" id="gDx-Zh-fYA"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S5v-FE-Xp3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="640" y="-568"/>
+        </scene>
+        <!--Venues Table View Controller-->
+        <scene sceneID="HQw-Hd-7mc">
+            <objects>
+                <tableViewController storyboardIdentifier="VenuesTableViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ZsP-t7-ZOg" customClass="DWMVenuesTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="oWG-ik-L8J">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="VenueCell" id="I90-kW-CGg">
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="I90-kW-CGg" id="LA5-pO-rbr">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <sections/>
+                        <connections>
+                            <outlet property="dataSource" destination="ZsP-t7-ZOg" id="m9t-jy-4b9"/>
+                            <outlet property="delegate" destination="ZsP-t7-ZOg" id="xQx-b9-prF"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="6Ob-e7-pl4"/>
+                    <connections>
+                        <outlet property="navigationBar" destination="6Ob-e7-pl4" id="7yW-1i-CUH"/>
+                        <outlet property="tableView" destination="oWG-ik-L8J" id="dzv-Yg-6Xt"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NUx-tm-HWq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="640" y="147"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="2jD-UD-PHH">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Uvf-JW-1pQ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="rQi-E1-Xuk">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="L2W-z7-zLW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ggG-il-2AU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-412" y="-187"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
@@ -27,4 +177,7 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="z9c-mO-rLL"/>
+    </inferredMetricsTieBreakers>
 </document>
