@@ -234,6 +234,7 @@
 				B7B4CC4F1940EC94003CEED9 /* Resources */,
 				A49EC04B794F43AE89AAD2C2 /* Copy Pods Resources */,
 				2485F6CB196332A0008450B8 /* ShellScript */,
+				24BFA5FE1963550B00E98B02 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -253,6 +254,7 @@
 				B7B4CC6F1940EC94003CEED9 /* Frameworks */,
 				B7B4CC701940EC94003CEED9 /* Resources */,
 				DC3A3ED6D3C64DD795937B01 /* Copy Pods Resources */,
+				24BFA5FF1963551C00E98B02 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -350,7 +352,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export PATH=/usr/local/opt/ruby/bin:/usr/local/bin:$PATH\nbrew update\nbrew upgrade\ngem update --system\ngem update cocoa pods\ncd ${SRCROOT}\nif [ -e \"Pods\" ]\nthen\npod update\nelse\npod install\nfi";
+			shellScript = "cd ${SRCROOT}\necho \"Installing Pods\"\npod install\n";
+		};
+		24BFA5FE1963550B00E98B02 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+		24BFA5FF1963551C00E98B02 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd ${SRCROOT}\necho \"Installing Pods\"\npod install\n";
 		};
 		A49EC04B794F43AE89AAD2C2 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
