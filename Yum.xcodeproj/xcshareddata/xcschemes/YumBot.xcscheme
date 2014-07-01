@@ -10,7 +10,7 @@
             ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
             <ActionContent
                title = "Run Script"
-               scriptText = "cd ${SRCROOT}&#10;echo &quot;Installing Pods&quot;&#10;pod install">
+               scriptText = "">
             </ActionContent>
          </ExecutionAction>
       </PreActions>
@@ -26,6 +26,20 @@
                BlueprintIdentifier = "B7B4CC501940EC94003CEED9"
                BuildableName = "Yum.app"
                BlueprintName = "Yum"
+               ReferencedContainer = "container:Yum.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B7B4CC711940EC94003CEED9"
+               BuildableName = "YumTests.xctest"
+               BlueprintName = "YumTests"
                ReferencedContainer = "container:Yum.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
