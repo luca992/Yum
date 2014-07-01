@@ -350,7 +350,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# If you are using RVM, uncomment the `source` and `rvm use` lines.\n\n# Load RVM\n#source \"$HOME/.rvm/scripts/rvm\"\n\n# Tell RVM to use the correct ruby version. Change to which version you are using\n#rvm use ruby-1.9.3\n\ncd ${SRCROOT}\n\npod install";
+			shellScript = "export PATH=/usr/local/opt/ruby/bin:/usr/local/bin:$PATH\nbrew update\nbrew upgrade\ngem update --system\ngem update cocoa pods\ncd ${SRCROOT}\nif [ -e \"Pods\" ]\nthen\npod update\nelse\npod install\nfi";
 		};
 		A49EC04B794F43AE89AAD2C2 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
