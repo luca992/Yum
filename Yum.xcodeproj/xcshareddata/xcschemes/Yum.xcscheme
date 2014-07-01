@@ -11,6 +11,15 @@
             <ActionContent
                title = "Run Script"
                scriptText = "cd ${SRCROOT}&#10;echo &quot;Installing Pods&quot;&#10;pod install">
+               <EnvironmentBuildable>
+                  <BuildableReference
+                     BuildableIdentifier = "primary"
+                     BlueprintIdentifier = "B7B4CC711940EC94003CEED9"
+                     BuildableName = "YumTests.xctest"
+                     BlueprintName = "YumTests"
+                     ReferencedContainer = "container:Yum.xcodeproj">
+                  </BuildableReference>
+               </EnvironmentBuildable>
             </ActionContent>
          </ExecutionAction>
       </PreActions>
@@ -42,6 +51,15 @@
             <ActionContent
                title = "Run Script"
                scriptText = "cd ${SRCROOT}&#10;echo &quot;Installing Pods&quot;&#10;pod install">
+               <EnvironmentBuildable>
+                  <BuildableReference
+                     BuildableIdentifier = "primary"
+                     BlueprintIdentifier = "B7B4CC711940EC94003CEED9"
+                     BuildableName = "YumTests.xctest"
+                     BlueprintName = "YumTests"
+                     ReferencedContainer = "container:Yum.xcodeproj">
+                  </BuildableReference>
+               </EnvironmentBuildable>
             </ActionContent>
          </ExecutionAction>
       </PreActions>
@@ -86,6 +104,15 @@
             <ActionContent
                title = "Run Script"
                scriptText = "cd ${SRCROOT}&#10;echo &quot;Installing Pods&quot;&#10;pod install">
+               <EnvironmentBuildable>
+                  <BuildableReference
+                     BuildableIdentifier = "primary"
+                     BlueprintIdentifier = "B7B4CC711940EC94003CEED9"
+                     BuildableName = "YumTests.xctest"
+                     BlueprintName = "YumTests"
+                     ReferencedContainer = "container:Yum.xcodeproj">
+                  </BuildableReference>
+               </EnvironmentBuildable>
             </ActionContent>
          </ExecutionAction>
       </PreActions>
