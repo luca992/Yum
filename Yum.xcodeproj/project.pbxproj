@@ -42,13 +42,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		24BC194119647B3A002DFCCF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B7B4CC491940EC94003CEED9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 24BC191D19647B0E002DFCCF;
-			remoteInfo = YUMSetUP;
-		};
 		B7B4CC771940EC94003CEED9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B7B4CC491940EC94003CEED9 /* Project object */;
@@ -311,7 +304,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				24BC194219647B3A002DFCCF /* PBXTargetDependency */,
 			);
 			name = Yum;
 			productName = Yum;
@@ -527,11 +519,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		24BC194219647B3A002DFCCF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 24BC191D19647B0E002DFCCF /* YUMSetUP */;
-			targetProxy = 24BC194119647B3A002DFCCF /* PBXContainerItemProxy */;
-		};
 		B7B4CC781940EC94003CEED9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B7B4CC501940EC94003CEED9 /* Yum */;
