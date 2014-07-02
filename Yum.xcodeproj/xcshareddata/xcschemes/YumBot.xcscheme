@@ -10,7 +10,7 @@
             ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
             <ActionContent
                title = "Run Script"
-               scriptText = "exec &gt; /Users/lucaspinazzola/Documents/my_log_file.txt 2&gt;&amp;1&#10;&#10;${PROJECT_DIR}/&#10;&#10;pod install">
+               scriptText = "&#10;${PROJECT_DIR}/&#10;exec &gt; /Users/lucaspinazzola/Documents/my_log_file.txt 2&gt;&amp;1&#10;&#10;pod install">
             </ActionContent>
          </ExecutionAction>
       </PreActions>
