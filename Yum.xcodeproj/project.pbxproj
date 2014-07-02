@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		246300001963873800D67BBB /* PreBot.m in Sources */ = {isa = PBXBuildFile; fileRef = 2463FFFF1963873800D67BBB /* PreBot.m */; };
 		2463FFF91963873800D67BBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B4CC541940EC94003CEED9 /* Foundation.framework */; };
-		2463FFFE1963873800D67BBB /* PreBot.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2463FFFD1963873800D67BBB /* PreBot.h */; };
 		247D391819462ABF0072BBD7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 247D391719462ABF0072BBD7 /* CoreLocation.framework */; };
 		24A26B38195E0EE4001AE68E /* DWMVenue.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A26B37195E0EE4001AE68E /* DWMVenue.m */; };
 		24A74CBC19590F9C003BF236 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24A74CBB19590F9C003BF236 /* CoreData.framework */; };
@@ -65,7 +63,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				2463FFFE1963873800D67BBB /* PreBot.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,8 +71,6 @@
 /* Begin PBXFileReference section */
 		2463FFF81963873800D67BBB /* libPreBot.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPreBot.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2463FFFC1963873800D67BBB /* PreBot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PreBot-Prefix.pch"; sourceTree = "<group>"; };
-		2463FFFD1963873800D67BBB /* PreBot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreBot.h; sourceTree = "<group>"; };
-		2463FFFF1963873800D67BBB /* PreBot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PreBot.m; sourceTree = "<group>"; };
 		247D391719462ABF0072BBD7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		24A26B36195E0EE4001AE68E /* DWMVenue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWMVenue.h; sourceTree = "<group>"; };
 		24A26B37195E0EE4001AE68E /* DWMVenue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWMVenue.m; sourceTree = "<group>"; };
@@ -161,8 +156,6 @@
 		2463FFFA1963873800D67BBB /* PreBot */ = {
 			isa = PBXGroup;
 			children = (
-				2463FFFD1963873800D67BBB /* PreBot.h */,
-				2463FFFF1963873800D67BBB /* PreBot.m */,
 				2463FFFB1963873800D67BBB /* Supporting Files */,
 			);
 			path = PreBot;
@@ -478,7 +471,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				246300001963873800D67BBB /* PreBot.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
