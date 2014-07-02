@@ -417,7 +417,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "exec > /tmp/testflight.log 2>&1\n\n\nrm Pods";
+			shellScript = "exec > /tmp/testflight.log 2>&1\n\n\nrmdir Pods";
 		};
 		24BC194019647B23002DFCCF /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
