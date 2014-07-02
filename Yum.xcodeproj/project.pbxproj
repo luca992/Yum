@@ -55,13 +55,6 @@
 			remoteGlobalIDString = 2494CE4E1963941D00F8B36C;
 			remoteInfo = PreYum;
 		};
-		2494CE711963945000F8B36C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B7B4CC491940EC94003CEED9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2494CE4E1963941D00F8B36C;
-			remoteInfo = PreYum;
-		};
 		B7B4CC771940EC94003CEED9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B7B4CC491940EC94003CEED9 /* Project object */;
@@ -334,7 +327,7 @@
 				2494CE4B1963941D00F8B36C /* Sources */,
 				2494CE4C1963941D00F8B36C /* Frameworks */,
 				2494CE4D1963941D00F8B36C /* CopyFiles */,
-				2494CE731963945E00F8B36C /* Run Script */,
+				249FB2DA19639ED600F863E2 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -376,7 +369,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				2494CE721963945000F8B36C /* PBXTargetDependency */,
 			);
 			name = Yum;
 			productName = Yum;
@@ -491,14 +483,13 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		2494CE731963945E00F8B36C /* Run Script */ = {
+		249FB2DA19639ED600F863E2 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Run Script";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -604,11 +595,6 @@
 			isa = PBXTargetDependency;
 			target = 2494CE4E1963941D00F8B36C /* PreYum */;
 			targetProxy = 2494CE601963941D00F8B36C /* PBXContainerItemProxy */;
-		};
-		2494CE721963945000F8B36C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2494CE4E1963941D00F8B36C /* PreYum */;
-			targetProxy = 2494CE711963945000F8B36C /* PBXContainerItemProxy */;
 		};
 		B7B4CC781940EC94003CEED9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
