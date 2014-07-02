@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D1C8DE207F8D47B785120B54"
+               BlueprintIdentifier = "5EE11D570E7E49FE931CFEFB"
                BuildableName = "libPods-Yum-AFNetworking.a"
                BlueprintName = "Pods-Yum-AFNetworking"
                ReferencedContainer = "container:Pods.xcodeproj">
