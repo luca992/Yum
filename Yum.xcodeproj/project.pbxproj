@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		247D391819462ABF0072BBD7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 247D391719462ABF0072BBD7 /* CoreLocation.framework */; };
+		2494CE501963941D00F8B36C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B4CC541940EC94003CEED9 /* Foundation.framework */; };
+		2494CE551963941D00F8B36C /* PreYum.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2494CE541963941D00F8B36C /* PreYum.h */; };
+		2494CE571963941D00F8B36C /* PreYum.m in Sources */ = {isa = PBXBuildFile; fileRef = 2494CE561963941D00F8B36C /* PreYum.m */; };
+		2494CE5D1963941D00F8B36C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B4CC731940EC94003CEED9 /* XCTest.framework */; };
+		2494CE5E1963941D00F8B36C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B4CC541940EC94003CEED9 /* Foundation.framework */; };
+		2494CE5F1963941D00F8B36C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B4CC581940EC94003CEED9 /* UIKit.framework */; };
+		2494CE621963941D00F8B36C /* libPreYum.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2494CE4F1963941D00F8B36C /* libPreYum.a */; };
+		2494CE681963941D00F8B36C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2494CE661963941D00F8B36C /* InfoPlist.strings */; };
+		2494CE6A1963941D00F8B36C /* PreYumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2494CE691963941D00F8B36C /* PreYumTests.m */; };
 		24A26B38195E0EE4001AE68E /* DWMVenue.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A26B37195E0EE4001AE68E /* DWMVenue.m */; };
 		24A74CBC19590F9C003BF236 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24A74CBB19590F9C003BF236 /* CoreData.framework */; };
 		24A74CBF19590FB9003BF236 /* Yum.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 24A74CBD19590FB9003BF236 /* Yum.xcdatamodeld */; };
@@ -39,6 +48,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2494CE601963941D00F8B36C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7B4CC491940EC94003CEED9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2494CE4E1963941D00F8B36C;
+			remoteInfo = PreYum;
+		};
+		2494CE711963945000F8B36C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7B4CC491940EC94003CEED9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2494CE4E1963941D00F8B36C;
+			remoteInfo = PreYum;
+		};
 		B7B4CC771940EC94003CEED9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B7B4CC491940EC94003CEED9 /* Project object */;
@@ -48,8 +71,29 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		2494CE4D1963941D00F8B36C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				2494CE551963941D00F8B36C /* PreYum.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		247D391719462ABF0072BBD7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2494CE4F1963941D00F8B36C /* libPreYum.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPreYum.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2494CE531963941D00F8B36C /* PreYum-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PreYum-Prefix.pch"; sourceTree = "<group>"; };
+		2494CE541963941D00F8B36C /* PreYum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreYum.h; sourceTree = "<group>"; };
+		2494CE561963941D00F8B36C /* PreYum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PreYum.m; sourceTree = "<group>"; };
+		2494CE5C1963941D00F8B36C /* PreYumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreYumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2494CE651963941D00F8B36C /* PreYumTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PreYumTests-Info.plist"; sourceTree = "<group>"; };
+		2494CE671963941D00F8B36C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2494CE691963941D00F8B36C /* PreYumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PreYumTests.m; sourceTree = "<group>"; };
 		24A26B36195E0EE4001AE68E /* DWMVenue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWMVenue.h; sourceTree = "<group>"; };
 		24A26B37195E0EE4001AE68E /* DWMVenue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWMVenue.m; sourceTree = "<group>"; };
 		24A74CBB19590F9C003BF236 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -96,6 +140,25 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2494CE4C1963941D00F8B36C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2494CE501963941D00F8B36C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2494CE591963941D00F8B36C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2494CE5D1963941D00F8B36C /* XCTest.framework in Frameworks */,
+				2494CE5F1963941D00F8B36C /* UIKit.framework in Frameworks */,
+				2494CE5E1963941D00F8B36C /* Foundation.framework in Frameworks */,
+				2494CE621963941D00F8B36C /* libPreYum.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B7B4CC4E1940EC94003CEED9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -123,11 +186,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2494CE511963941D00F8B36C /* PreYum */ = {
+			isa = PBXGroup;
+			children = (
+				2494CE541963941D00F8B36C /* PreYum.h */,
+				2494CE561963941D00F8B36C /* PreYum.m */,
+				2494CE521963941D00F8B36C /* Supporting Files */,
+			);
+			path = PreYum;
+			sourceTree = "<group>";
+		};
+		2494CE521963941D00F8B36C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2494CE531963941D00F8B36C /* PreYum-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2494CE631963941D00F8B36C /* PreYumTests */ = {
+			isa = PBXGroup;
+			children = (
+				2494CE691963941D00F8B36C /* PreYumTests.m */,
+				2494CE641963941D00F8B36C /* Supporting Files */,
+			);
+			path = PreYumTests;
+			sourceTree = "<group>";
+		};
+		2494CE641963941D00F8B36C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2494CE651963941D00F8B36C /* PreYumTests-Info.plist */,
+				2494CE661963941D00F8B36C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		B7B4CC481940EC94003CEED9 = {
 			isa = PBXGroup;
 			children = (
 				B7B4CC5A1940EC94003CEED9 /* Yum */,
 				B7B4CC791940EC94003CEED9 /* YumTests */,
+				2494CE511963941D00F8B36C /* PreYum */,
+				2494CE631963941D00F8B36C /* PreYumTests */,
 				B7B4CC531940EC94003CEED9 /* Frameworks */,
 				B7B4CC521940EC94003CEED9 /* Products */,
 				FD73BF42A3EA48EB93D9472B /* Pods-YumTests.xcconfig */,
@@ -140,6 +241,8 @@
 			children = (
 				B7B4CC511940EC94003CEED9 /* Yum.app */,
 				B7B4CC721940EC94003CEED9 /* YumTests.xctest */,
+				2494CE4F1963941D00F8B36C /* libPreYum.a */,
+				2494CE5C1963941D00F8B36C /* PreYumTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -224,6 +327,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2494CE4E1963941D00F8B36C /* PreYum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2494CE6B1963941D00F8B36C /* Build configuration list for PBXNativeTarget "PreYum" */;
+			buildPhases = (
+				2494CE4B1963941D00F8B36C /* Sources */,
+				2494CE4C1963941D00F8B36C /* Frameworks */,
+				2494CE4D1963941D00F8B36C /* CopyFiles */,
+				2494CE731963945E00F8B36C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PreYum;
+			productName = PreYum;
+			productReference = 2494CE4F1963941D00F8B36C /* libPreYum.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2494CE5B1963941D00F8B36C /* PreYumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2494CE6E1963941D00F8B36C /* Build configuration list for PBXNativeTarget "PreYumTests" */;
+			buildPhases = (
+				2494CE581963941D00F8B36C /* Sources */,
+				2494CE591963941D00F8B36C /* Frameworks */,
+				2494CE5A1963941D00F8B36C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2494CE611963941D00F8B36C /* PBXTargetDependency */,
+			);
+			name = PreYumTests;
+			productName = PreYumTests;
+			productReference = 2494CE5C1963941D00F8B36C /* PreYumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		B7B4CC501940EC94003CEED9 /* Yum */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B7B4CC831940EC94003CEED9 /* Build configuration list for PBXNativeTarget "Yum" */;
@@ -237,6 +376,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				2494CE721963945000F8B36C /* PBXTargetDependency */,
 			);
 			name = Yum;
 			productName = Yum;
@@ -273,6 +413,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "DW Morgan";
 				TargetAttributes = {
+					2494CE5B1963941D00F8B36C = {
+						TestTargetID = B7B4CC501940EC94003CEED9;
+					};
 					B7B4CC501940EC94003CEED9 = {
 						DevelopmentTeam = 6EE2X77E8B;
 					};
@@ -296,11 +439,21 @@
 			targets = (
 				B7B4CC501940EC94003CEED9 /* Yum */,
 				B7B4CC711940EC94003CEED9 /* YumTests */,
+				2494CE4E1963941D00F8B36C /* PreYum */,
+				2494CE5B1963941D00F8B36C /* PreYumTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2494CE5A1963941D00F8B36C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2494CE681963941D00F8B36C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B7B4CC4F1940EC94003CEED9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -337,6 +490,19 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
+		};
+		2494CE731963945E00F8B36C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"$USER\" == \"_teamsserver\" ]; then\necho \"Running PreBotsStep\"\ncd $SRCROOT/../\npod install\ncd $SRCROOT\nelse\necho \"Username: $USERNAME\"\necho \"Not on Bots Server, skipping PreBotsStep\"\nfi";
 		};
 		A49EC04B794F43AE89AAD2C2 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -386,6 +552,22 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2494CE4B1963941D00F8B36C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2494CE571963941D00F8B36C /* PreYum.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2494CE581963941D00F8B36C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2494CE6A1963941D00F8B36C /* PreYumTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B7B4CC4D1940EC94003CEED9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -417,6 +599,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2494CE611963941D00F8B36C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2494CE4E1963941D00F8B36C /* PreYum */;
+			targetProxy = 2494CE601963941D00F8B36C /* PBXContainerItemProxy */;
+		};
+		2494CE721963945000F8B36C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2494CE4E1963941D00F8B36C /* PreYum */;
+			targetProxy = 2494CE711963945000F8B36C /* PBXContainerItemProxy */;
+		};
 		B7B4CC781940EC94003CEED9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B7B4CC501940EC94003CEED9 /* Yum */;
@@ -425,6 +617,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		2494CE661963941D00F8B36C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2494CE671963941D00F8B36C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		B7B4CC5D1940EC94003CEED9 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -452,6 +652,74 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2494CE6C1963941D00F8B36C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/PreYum.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PreYum/PreYum-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2494CE6D1963941D00F8B36C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/PreYum.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PreYum/PreYum-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2494CE6F1963941D00F8B36C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Yum.app/Yum";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PreYum/PreYum-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PreYumTests/PreYumTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2494CE701963941D00F8B36C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Yum.app/Yum";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PreYum/PreYum-Prefix.pch";
+				INFOPLIST_FILE = "PreYumTests/PreYumTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 		B7B4CC811940EC94003CEED9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -601,6 +869,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2494CE6B1963941D00F8B36C /* Build configuration list for PBXNativeTarget "PreYum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2494CE6C1963941D00F8B36C /* Debug */,
+				2494CE6D1963941D00F8B36C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2494CE6E1963941D00F8B36C /* Build configuration list for PBXNativeTarget "PreYumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2494CE6F1963941D00F8B36C /* Debug */,
+				2494CE701963941D00F8B36C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		B7B4CC4C1940EC94003CEED9 /* Build configuration list for PBXProject "Yum" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
