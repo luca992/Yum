@@ -424,7 +424,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "exec > /tmp/testflight.log 2>&1\n\n\npod install\n";
+			shellScript = "exec > /tmp/testflight.log 2>&1\n\nexport PATH=/usr/local/opt/ruby/bin:/usr/local/bin:$PATH\nbrew update\nbrew upgrade\ngem update --system\ngem update cocoa pods\ncd ${SRCROOT}\nif [ -e \"Pods\" ]\nthen\npod update\nelse\npod install\nfi\n";
 		};
 		A49EC04B794F43AE89AAD2C2 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
