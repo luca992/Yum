@@ -1,13 +1,13 @@
 //
-//  PreYum.h
-//  PreYum
+//  YUMSetUP.h
+//  YUMSetUP
 //
-//  Created by Luca Spinazzola on 7/1/14.
+//  Created by Luca Spinazzola on 7/2/14.
 //  Copyright (c) 2014 DW Morgan. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-@interface PreYum : NSObject
+@interface YUMSetUP : NSObject
 
 @end

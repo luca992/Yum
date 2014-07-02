@@ -85,6 +85,16 @@
                ReferencedContainer = "container:Yum.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "24BC192A19647B0E002DFCCF"
+               BuildableName = "YUMSetUPTests.xctest"
+               BlueprintName = "YUMSetUPTests"
+               ReferencedContainer = "container:Yum.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
