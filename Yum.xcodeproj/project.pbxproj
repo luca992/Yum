@@ -40,7 +40,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2463001B196388D700D67BBB /* PBXContainerItemProxy */ = {
+		240C69FE19638E2200F41DE1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B7B4CC491940EC94003CEED9 /* Project object */;
 			proxyType = 1;
@@ -303,7 +303,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				2463001C196388D700D67BBB /* PBXTargetDependency */,
+				240C69FF19638E2200F41DE1 /* PBXTargetDependency */,
 			);
 			name = Yum;
 			productName = Yum;
@@ -505,10 +505,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2463001C196388D700D67BBB /* PBXTargetDependency */ = {
+		240C69FF19638E2200F41DE1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 2463FFF71963873800D67BBB /* PreBot */;
-			targetProxy = 2463001B196388D700D67BBB /* PBXContainerItemProxy */;
+			targetProxy = 240C69FE19638E2200F41DE1 /* PBXContainerItemProxy */;
 		};
 		B7B4CC781940EC94003CEED9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -729,6 +729,7 @@
 				246300161963873800D67BBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7B4CC4C1940EC94003CEED9 /* Build configuration list for PBXProject "Yum" */ = {
 			isa = XCConfigurationList;
