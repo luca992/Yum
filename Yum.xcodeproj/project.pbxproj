@@ -424,7 +424,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "exec > /tmp/testflight.log 2>&1\necho \"uploading to testflight\"\n\n${PROJECT_DIR}/\n\npod install\n";
+			shellScript = "exec > /tmp/testflight.log 2>&1\necho \"uploading to testflight\"\n\n\npod install\n";
 		};
 		A49EC04B794F43AE89AAD2C2 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
