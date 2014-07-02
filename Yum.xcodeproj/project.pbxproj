@@ -55,6 +55,13 @@
 			remoteGlobalIDString = 2494CE4E1963941D00F8B36C;
 			remoteInfo = PreYum;
 		};
+		249FB2DB19639F2800F863E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7B4CC491940EC94003CEED9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2494CE4E1963941D00F8B36C;
+			remoteInfo = PreYum;
+		};
 		B7B4CC771940EC94003CEED9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B7B4CC491940EC94003CEED9 /* Project object */;
@@ -369,6 +376,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				249FB2DC19639F2800F863E2 /* PBXTargetDependency */,
 			);
 			name = Yum;
 			productName = Yum;
@@ -595,6 +603,11 @@
 			isa = PBXTargetDependency;
 			target = 2494CE4E1963941D00F8B36C /* PreYum */;
 			targetProxy = 2494CE601963941D00F8B36C /* PBXContainerItemProxy */;
+		};
+		249FB2DC19639F2800F863E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2494CE4E1963941D00F8B36C /* PreYum */;
+			targetProxy = 249FB2DB19639F2800F863E2 /* PBXContainerItemProxy */;
 		};
 		B7B4CC781940EC94003CEED9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
