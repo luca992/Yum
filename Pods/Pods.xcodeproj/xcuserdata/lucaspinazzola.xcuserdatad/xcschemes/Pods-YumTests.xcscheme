@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2463FFF71963873800D67BBB"
-               BuildableName = "libPreBot.a"
-               BlueprintName = "PreBot"
-               ReferencedContainer = "container:Yum.xcodeproj">
+               BlueprintIdentifier = "FBA321DB7AC14BF7AFA5C1C0"
+               BuildableName = "libPods-YumTests.a"
+               BlueprintName = "Pods-YumTests"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
