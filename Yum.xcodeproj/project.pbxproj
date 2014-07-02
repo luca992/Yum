@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2463FFF91963873800D67BBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B4CC541940EC94003CEED9 /* Foundation.framework */; };
 		247D391819462ABF0072BBD7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 247D391719462ABF0072BBD7 /* CoreLocation.framework */; };
 		24A26B38195E0EE4001AE68E /* DWMVenue.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A26B37195E0EE4001AE68E /* DWMVenue.m */; };
 		24A74CBC19590F9C003BF236 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24A74CBB19590F9C003BF236 /* CoreData.framework */; };
@@ -40,13 +39,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		240C69FE19638E2200F41DE1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B7B4CC491940EC94003CEED9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2463FFF71963873800D67BBB;
-			remoteInfo = PreBot;
-		};
 		B7B4CC771940EC94003CEED9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B7B4CC491940EC94003CEED9 /* Project object */;
@@ -56,21 +48,7 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		2463FFF61963873800D67BBB /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		2463FFF81963873800D67BBB /* libPreBot.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPreBot.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		2463FFFC1963873800D67BBB /* PreBot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PreBot-Prefix.pch"; sourceTree = "<group>"; };
 		247D391719462ABF0072BBD7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		24A26B36195E0EE4001AE68E /* DWMVenue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWMVenue.h; sourceTree = "<group>"; };
 		24A26B37195E0EE4001AE68E /* DWMVenue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWMVenue.m; sourceTree = "<group>"; };
@@ -118,14 +96,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2463FFF51963873800D67BBB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2463FFF91963873800D67BBB /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B7B4CC4E1940EC94003CEED9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -153,28 +123,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2463FFFA1963873800D67BBB /* PreBot */ = {
-			isa = PBXGroup;
-			children = (
-				2463FFFB1963873800D67BBB /* Supporting Files */,
-			);
-			path = PreBot;
-			sourceTree = "<group>";
-		};
-		2463FFFB1963873800D67BBB /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				2463FFFC1963873800D67BBB /* PreBot-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		B7B4CC481940EC94003CEED9 = {
 			isa = PBXGroup;
 			children = (
 				B7B4CC5A1940EC94003CEED9 /* Yum */,
 				B7B4CC791940EC94003CEED9 /* YumTests */,
-				2463FFFA1963873800D67BBB /* PreBot */,
 				B7B4CC531940EC94003CEED9 /* Frameworks */,
 				B7B4CC521940EC94003CEED9 /* Products */,
 				FD73BF42A3EA48EB93D9472B /* Pods-YumTests.xcconfig */,
@@ -187,7 +140,6 @@
 			children = (
 				B7B4CC511940EC94003CEED9 /* Yum.app */,
 				B7B4CC721940EC94003CEED9 /* YumTests.xctest */,
-				2463FFF81963873800D67BBB /* libPreBot.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -272,24 +224,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2463FFF71963873800D67BBB /* PreBot */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 246300141963873800D67BBB /* Build configuration list for PBXNativeTarget "PreBot" */;
-			buildPhases = (
-				2463FFF41963873800D67BBB /* Sources */,
-				2463FFF51963873800D67BBB /* Frameworks */,
-				2463FFF61963873800D67BBB /* CopyFiles */,
-				2463001A1963884C00D67BBB /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = PreBot;
-			productName = PreBot;
-			productReference = 2463FFF81963873800D67BBB /* libPreBot.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 		B7B4CC501940EC94003CEED9 /* Yum */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B7B4CC831940EC94003CEED9 /* Build configuration list for PBXNativeTarget "Yum" */;
@@ -303,7 +237,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				240C69FF19638E2200F41DE1 /* PBXTargetDependency */,
 			);
 			name = Yum;
 			productName = Yum;
@@ -363,7 +296,6 @@
 			targets = (
 				B7B4CC501940EC94003CEED9 /* Yum */,
 				B7B4CC711940EC94003CEED9 /* YumTests */,
-				2463FFF71963873800D67BBB /* PreBot */,
 			);
 		};
 /* End PBXProject section */
@@ -405,19 +337,6 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
-		};
-		2463001A1963884C00D67BBB /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if [ \"$USER\" == \"_teamsserver\" ]; then\necho \"Running PreBotsStep\"\ncd $SRCROOT/../\npod install\ncd $SRCROOT\nelse\necho \"Username: $USERNAME\"\necho \"Not on Bots Server, skipping PreBotsStep\"\nfi";
 		};
 		A49EC04B794F43AE89AAD2C2 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -467,13 +386,6 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2463FFF41963873800D67BBB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B7B4CC4D1940EC94003CEED9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -505,11 +417,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		240C69FF19638E2200F41DE1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2463FFF71963873800D67BBB /* PreBot */;
-			targetProxy = 240C69FE19638E2200F41DE1 /* PBXContainerItemProxy */;
-		};
 		B7B4CC781940EC94003CEED9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B7B4CC501940EC94003CEED9 /* Yum */;
@@ -545,34 +452,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		246300151963873800D67BBB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DSTROOT = /tmp/PreBot.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PreBot/PreBot-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		246300161963873800D67BBB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DSTROOT = /tmp/PreBot.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PreBot/PreBot-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		B7B4CC811940EC94003CEED9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -722,15 +601,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		246300141963873800D67BBB /* Build configuration list for PBXNativeTarget "PreBot" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				246300151963873800D67BBB /* Debug */,
-				246300161963873800D67BBB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		B7B4CC4C1940EC94003CEED9 /* Build configuration list for PBXProject "Yum" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
