@@ -42,6 +42,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		24532B5A1964A9A10083236F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7B4CC491940EC94003CEED9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24BC191D19647B0E002DFCCF;
+			remoteInfo = YUMSetUP;
+		};
 		B7B4CC771940EC94003CEED9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B7B4CC491940EC94003CEED9 /* Project object */;
@@ -299,11 +306,11 @@
 				B7B4CC4E1940EC94003CEED9 /* Frameworks */,
 				B7B4CC4F1940EC94003CEED9 /* Resources */,
 				A49EC04B794F43AE89AAD2C2 /* Copy Pods Resources */,
-				24532B55196492F80083236F /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				24532B5B1964A9A10083236F /* PBXTargetDependency */,
 			);
 			name = Yum;
 			productName = Yum;
@@ -406,19 +413,6 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		24532B55196492F80083236F /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "exec > /tmp/testflight.log 2>&1\n\n";
-		};
 		24BC194019647B23002DFCCF /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -519,6 +513,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		24532B5B1964A9A10083236F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24BC191D19647B0E002DFCCF /* YUMSetUP */;
+			targetProxy = 24532B5A1964A9A10083236F /* PBXContainerItemProxy */;
+		};
 		B7B4CC781940EC94003CEED9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B7B4CC501940EC94003CEED9 /* Yum */;
